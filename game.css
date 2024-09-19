@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.header{
+    color: black;
+    height: 4rem;
+    line-height: 4rem;
+    background-color: #19B5FE;
+    border: 0.5px solid black;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.choice{
+    height: 195px;
+    width: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 0.5px solid black;
+}
+img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+#rock:hover{
+    cursor: pointer;
+    background-color: rgb(255, 28, 255);
+}
+#paper:hover{
+    cursor: pointer;
+    background-color: rgb(73, 73, 190);
+    
+}
+#scissor:hover{
+    cursor: pointer;
+    background-color: rgb(255, 248, 36);
+   
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+ #you{
+    font-size: 60px;
+}
+ #comp{
+    font-size: 60px;
+}
+.msg{
+    font-size: 2rem;
+    background-color: #19B5FE;
+    border: 1px solid black;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.msg-container{
+    margin-top: 3rem;
+}
+.msg:hover{
+    cursor: pointer;
+}
+
+.msg-container-2{
+    margin-top: 4rem;
+}
+.Restart{
+    font-size: 2rem;
+    background-color: #19B5FE;
+    border: 1px solid black;
+    display: inline;
+    padding: 0.85rem;
+    border-radius: 1rem;
+}
